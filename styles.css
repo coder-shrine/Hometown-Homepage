@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    font-family: 'Merienda', cursive;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:420px;
+    background-image: url("images/Bangalore-skyline.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color:#86CB92;
+}
+
+.hero__title{
+    margin:0 0 40px 0px;
+    max-width: 360px;
+    width:100%;
+    backdrop-filter: blur(10px);
+    box-shadow: 4px 4px #86CB92;
+}
+
+.hero__description{
+    margin: 20px 0 0 0px;
+    padding: 10px 20px;
+    max-width:450px;
+    width:100%;
+    backdrop-filter: blur(10px);
+    box-shadow: -4px -4px #86CB92;
+    
+}
+
+.activities{
+    margin:0;
+    background-color: #F1FAEE;
+    padding-top:20px;
+    color:#260F26;
+}
+.activities>h2{
+    text-align: center;
+    padding:20px;
+}
+
+.activities__list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+
+.activities__item{
+    text-align: center;
+    flex:1 1 250px;
+    max-width: 300px;
+}
+
+.activities__icon{
+    max-width:150px;
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:50%;
+}
+
+
+.guide{
+    text-align: center;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide-card{
+    background-color: #86CB92;
+    padding:20px;
+    color:#260F26;
+    max-width:420px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 8px #251F47;
+}
+
+.guide-card__avatar{
+    max-width:180px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.guide-card__info{
+    font-style: italic;
+    max-width:180px;
+    width:100%;
+    
+}
